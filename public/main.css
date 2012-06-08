@@ -1,0 +1,270 @@
+
+@font-face {
+  font-family: 'Reenie Beanie';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Reenie Beanie'), local('ReenieBeanie'), url('http://themes.googleusercontent.com/font?kit=ljpKc6CdXusL1cnGUSamX4jjx0o0jr6fNXxPgYh_a8Q') format('truetype');
+}
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cantarell Regular'), local('Cantarell-Regular'), url('http://themes.googleusercontent.com/font?kit=V86VyqXbc09Sss3BPsMj16CWcynf_cDxXwCLxiixG1c') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Inconsolata'), url('http://themes.googleusercontent.com/font?kit=BjAYBlHtW3CJxDcjzrnZCJ0EAVxt0G0biEntp43Qt6E') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cherry Cream Soda';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cherry Cream Soda'), local('CherryCreamSoda'), url('http://themes.googleusercontent.com/font?kit=OrD-AUnFcZeeKa6F_c0_W7qBN36jQhVLTmQ9NDizP_4') format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Merriweather'), url('http://themes.googleusercontent.com/font?kit=RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs') format('truetype');
+}
+
+#toggle_workers, #toggle_interfaces {
+    cursor: pointer;
+}
+
+#panel_testinput, #panel_show, #panel_control {
+    margin: 10px;
+    text-align:left; /* for IE */
+/*    width: 900px;*/
+}
+
+#panels {
+    width: 880px;
+/*    height: 110px;*/
+    margin: 10px;
+/*    background-color: #DCEAF3;*/
+    background-color: #777;
+    color: #4D96E6;
+    padding: 10px;
+	border-radius: 10px;
+	border: 3px solid #CCC;
+	text-align:center; /* for IE */
+	margin:0 auto; /* for the rest */
+}
+
+#flash {
+    color: #FF3300;
+    font-size: 16px;
+    padding-left: 20px;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#time_elapsed, #progress_value {
+    color: #FFFF99;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#content {
+    display: block;
+    margin: 10px;
+    width: 880px;
+    background-color: #333333;
+	color: #4D96E6;
+	/*width: 900;*/
+	padding: 10px;
+	border-radius: 10px;
+	border: 3px solid #CCC;
+	text-align:left; /* for IE */
+	margin:0 auto; /* for the rest */
+	font-family: "Merriweather", "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#panel_dashboard, #panel_queue {
+    background-color: #ffffff;
+    color: #333333;
+    margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#menu {
+    margin: 2px;
+    padding: 2px;
+    vertical-align:middle;
+    text-align:center; /* for IE */
+}
+
+#panel_status {
+    padding-bottom: 10px;
+    vertical-align:middle;
+}
+
+
+
+#menu a {
+    color: #eee;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration:none;
+    font-size: 16px;
+    padding: 5px;
+    font-family: "Cantarell", "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#menu a:hover {
+    color: #4D96E6;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color:#F87431;
+    text-decoration:underline;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: "Reenie Beanie", "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#progressbar {
+    margin: 10px;
+    float: left;
+}
+
+#position_slider { 
+    margin: 10px;
+    float: right;
+}
+
+#zoom_slider { 
+    margin: 14px;
+    float: right;
+}
+
+#group_name {
+    font-size: 14px;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#run_id_name, #timer_value {
+    border: 0px; 
+    font-size: 14px;
+    background: #ddd;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#instructions, #select_test {
+	margin-top: 5px;
+	margin-bottom: 5px;
+    height: 35px;
+    width: 250px;   
+	background: #eee;
+    color: #222;
+    font-size: 16px;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#test_object {
+    width: 800px;
+    height: 500px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    background-position: bottom right;
+    color: #eee;
+    background: #111;
+    border-radius: 10px;
+    font-size: 1.0em;
+	font-family: "Merriweather", "Georgia", "Trebuchet MS", "맑은 고딕", Dotum, Verdana, AppleGothic, Sans-serif;
+}
+
+#processed_tests{
+	margin-top: 5px;
+	margin-bottom: 5px;
+    height: 35px;
+    width: 350px;   
+	background: #eee;
+	margin-right: 20px;
+    color: #222;
+    font-size: 16px;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#workers_div {
+    text-align:left;
+}
+
+#idle_workers, #reserved_workers{
+	margin-top: 5px;
+	margin-bottom: 5px;
+    height: 35px;
+    width: 250px;   
+	background: #eee;
+    color: #222;
+    font-size: 16px;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+}
+
+#running, #zoom_level {
+	margin-top: 5px;
+    height: 30px;
+    width: 250px;   
+	background: #222;
+    color: #bbb;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: #ee2222 2px solid;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+    border-radius: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 10px;
+	font-size: 1.0em;
+	font-family: "Merriweather", "Georgia", "Trebuchet MS", "맑은 고딕", Dotum, Verdana, AppleGothic, Sans-serif;
+}
+
+th, thead {
+	background: #3e83c9;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 2px;
+	text-align: left;
+	border-right: 1px solid #fff;
+	line-height: 1.2;
+}
+
+td {
+	padding: 2px 2px;
+	vertical-align: top;
+	text-align: left;
+	font-family: "Merriweather", "Georgia", "Trebuchet MS";
+}
+
+td * {
+	padding: 2px 2px;
+}
+
+tr.alt td {
+	background: #ecf6fc;
+}
+
+body { 
+    background-color: #111; 
+    color: #eee; 
+    text-align:center; /* for IE */
+    margin:0 auto; /* for the rest */
+}
+
+.checkbox, .radio {
+    width: 40px;
+    height: 40px;
+}

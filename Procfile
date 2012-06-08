@@ -1,0 +1,1 @@
+web: bundle exec thin -c $APP_NAME start -e production -p $PORT
